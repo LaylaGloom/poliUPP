@@ -1,0 +1,50 @@
+:root{
+	--bc-grayb:#312E2E;
+	--bc-purple:#8A1099;
+}
+
+html {
+	display: flex;
+	position: relative;
+  	min-height: 100%;
+  	flex-direction: column;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+main{
+	flex: 1 0 auto;
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--bc-grayb);
+}
+.footer h6{
+	color: white;
+}
+.footer a{
+	color: #2F95B6;
+}
+.pad-10{
+  padding: 10px;
+}
+.margin-15{
+  margin: 15px;
+}
+.w-100{
+	width: 100%;
+}
+.w-75{
+	width: 75%;
+}
+.w-50{
+	width: 50%;
+}
+.bg-white{
+	color: white;
+}
+.aux-center{
+	
+}
